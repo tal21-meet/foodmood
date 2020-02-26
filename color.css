@@ -1,0 +1,76 @@
+#happy{
+	color: pink
+}
+
+#sad{
+	color: blue
+}
+
+#depressed{
+	color: darkblue
+}
+
+#tired{
+	color: steelblue;
+}
+
+#energy{
+	color: lime
+
+
+}
+
+#cold{
+	color: purple
+
+
+
+}
+
+#hot{
+	color: orange
+
+
+}
+
+#fav{
+	color: violet
+}
+
+#angry{
+	color: red
+
+}
+
+#creative{
+ 	background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2vw;
+
+}
+
+#h1{
+	align-content: center;
+	font-size: 2px;
+}
+
+#mood{
+
+  position:absolute;
+  left: 50%
+  
+  
+
+
+}
+
+#moo{
+	position: absolute;
+	left: 60%
+}
+ 
