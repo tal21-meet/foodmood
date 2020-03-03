@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+<title>home</title>
+</head>
+<body style="background-color: grey;">
+	<button onclick="F(0)">
+		Happy
+	</button>
+	<button onclick="F(1)">
+		Sad
+	</button>
+	<td>
+	<button onclick="F(2)">
+		Depressed
+	</button>
+	<button onclick="F(3)">
+		Tired
+	</button>
+	<button onclick="F(4)">
+		Energetic
+	</button>
+	<button onclick="F(5)">
+		Cold day
+	</button>
+	<button onclick="F(6)">
+		Hot day
+	</button>
+	<button onclick="F(7)">
+		Angry
+	</button>
+	<button onclick="F(8)">
+		creative
+	</button>
+	<script>
+		function F(R) {
+			var link=["file:///home/student/Desktop/tr/0",
+			"file:///home/student/Desktop/tr/1",
+			"file:///home/student/Desktop/tr/2",
+			"file:///home/student/Desktop/tr/3",
+			"file:///home/student/Desktop/tr/4",
+			"file:///home/student/Desktop/tr/5",
+			"file:///home/student/Desktop/tr/6",
+			"file:///home/student/Desktop/tr/7",
+			"file:///home/student/Desktop/tr/8",
+			"file:///home/student/Desktop/tr/9",]
+		window.location.href = link[R];
+		}
+	</script>
+</body>

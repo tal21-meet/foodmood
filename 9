@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <button id="1" onclick="G(0)" class="background4">
+        <img src="21.jpg" class="background1">
+    </button>
+    <button id="2" onclick="G(1)" class="background2">
+        <img src="22.jpg" class="background1">
+    </button>
+    <button id="3" onclick="G(2)" class="background3">
+        <img src="23.jpg" class="background1">
+    </button>
+    <div id="tr"></div>
+    <script type="text/javascript">
+        function G(R) {
+            var link=["https://www.tasteofhome.com/collection/best-chocolate-recipes-in-every-state/",
+            "https://www.bbcgoodfood.com/recipes/collection/pasta",
+            "https://www.bbcgoodfood.com/recipes/collection/classic-cake"]
+            document.getElementById('1').style.visibility = 'hidden';
+            document.getElementById('2').style.visibility = 'hidden';
+            document.getElementById('3').style.visibility = 'hidden';
+            var ifrm = document.createElement("iframe");
+            ifrm.setAttribute("src",link[R]);
+            ifrm.style.width = "640px";
+            ifrm.style.height = "480px";
+            document.body.appendChild(ifrm);
+        }
+    </script>
+</body>
+</html>
